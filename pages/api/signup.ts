@@ -15,12 +15,14 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       data: {
         email,
         password: bcrypt.hashSync(password, salt),
-        firstName,
-        lastName,
+        firstName: firstName != undefined ? firstName : null,
+        lastName: lastName != undefined ? lastName : null,
       },
     });
   } catch (e) {
     res.status(401);
+    console.log(e);
+
     res.json({ error: "User already exists" });
     return;
   }
