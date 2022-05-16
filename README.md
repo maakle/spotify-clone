@@ -1,6 +1,6 @@
 ## Visit
 
-You can login and see the live project [https://spotify-clone-n17z83r25-mathiasklenk.vercel.app/](here).
+You can login and see the live project [here](https://spotify-clone-n17z83r25-mathiasklenk.vercel.app/).
 
 Login with email `user@test.com` and `password` as password.
 
