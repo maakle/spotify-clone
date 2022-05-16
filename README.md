@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Visit
+
+You can login and see the live project [https://spotify-clone-n17z83r25-mathiasklenk.vercel.app/](here).
+
+Login with email `user@test.com` and `password` as password.
+
 
 ## Getting Started
 
